@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>calculator</title>
+</head>
+
+<style>
+    .calculator-container {
+        background-color: rgb(30, 28, 28);
+        width: 400px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 55px;
+        border-radius: 20px;
+        padding: 9px;
+        padding-bottom: 40px;
+
+    }
+
+    .cal-screen {
+        font-size: 40px;
+        width: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        padding: 5px;
+        background-color: rgb(39, 166, 166);
+        margin-bottom: 20px;
+    }
+
+    .button-row {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 6px;
+        padding-top: 8px
+    }
+
+    .calculator-button {
+        font-size: 41px;
+        height: 70px;
+        width: 70px;
+        border-radius: 50px;
+        cursor: pointer;
+        border: 1.5px solid black;
+
+    }
+
+    .brand {
+        color: white;
+        text-align: right;
+        margin-right: 21px;
+        font-size: 21px;
+
+        .calculator-button:hover {
+            font-size: 40px;
+            box-shadow: 0 0 1px 1px white;
+            transition: 1;
+
+
+        }
+
+    }
+
+    .small-screen {
+        height: 25px;
+        width: 25px;
+        background-color: rgb(39, 166, 166);
+        border: 1px solid black;
+    }
+
+    .small-screen-container {
+        display: flex;
+        justify-content: end;
+        margin-right: 20px;
+    }
+</style>
+</head>
+
+<body>
+    <div class=" calculator-container">
+        <p class="brand">RTC </p>
+        <input type="text" class="cal-screen">
+
+        <div class="small-screen-container">
+            <div class="small-screen"></div>
+            <div class="small-screen"></div>
+            <div class="small-screen"></div>
+        </div>
+        <div class="button-row">
+            <button class="calculator-button">1</button>
+            <button class="calculator-button">2</button>
+            <button class="calculator-button">3</button>
+            <button class="calculator-button">+</button>
+
+        </div>
+        <div class="button-row">
+            <button class="calculator-button">4</button>
+            <button class="calculator-button">5</button>
+            <button class="calculator-button">6</button>
+            <button class="calculator-button">-</button>
+
+        </div>
+        <div class="button-row">
+            <button class="calculator-button">7</button>
+            <button class="calculator-button">8</button>
+            <button class="calculator-button">9</button>
+            <button class="calculator-button">x</button>
+
+        </div>
+        <div class="button-row">
+            <button class="calculator-button">0</button>
+            <button class="calculator-button">/</button>
+            <button class="calculator-button">.</button>
+            <button class="calculator-button">=</button>
+
+        </div>
+    </div>
+</body>
+
+</html
